@@ -172,7 +172,6 @@ def main():
         category_int, class_name = classify_resume(uploaded_file)
 
         # Display the classification result
-        st.write("Classification result:")
         st.write("Predicted Category:", category_int)
         st.write("Predicted Class:", class_name)
 
